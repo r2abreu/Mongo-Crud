@@ -1,4 +1,4 @@
-import mongoose from "mongoose";
+const mongoose = require("mongoose");
 
 const url =
   "mongodb+srv://root:mongosecret@mongocrud.y83gk.mongodb.net/sample_analytics?retryWrites=true&w=majority";
@@ -16,4 +16,4 @@ const connectToDatabase = () => {
     .catch((err) => console.log(`Error connecting to database: \n${err}`));
 };
 
-export default connectToDatabase;
+module.exports = connectToDatabase;
