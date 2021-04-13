@@ -13,16 +13,13 @@
   },
   "keywords": [
     "crud",
-    "express",
-    "nuxt",
-    "vue"
+    "express"
   ],
   "author": "Arturo Abreu",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/r2abreu/Mongo-Crud/issues"
   },
-  "type": "module",
   "homepage": "https://github.com/r2abreu/Mongo-Crud#readme",
   "dependencies": {
     "express": "^4.17.1",
