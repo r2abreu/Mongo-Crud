@@ -2,7 +2,7 @@ const express = require("express");
 const connectToDatabase = require("./database/database.js");
 const customerRoutes = require("./routes/customer.routes.js");
 const app = express();
-const PORT = 3000;
+const PORT = 3001;
 
 app.use(express.urlencoded({ extended: true }));
 

@@ -4,7 +4,7 @@ exports.create = (req, res) => {};
 
 exports.findAll = (req, res) => {
   Customer.find()
-    .then((data) => console.log(data))
+    .then((data) => res.send(data))
     .catch((err) => {
       res.status(500).send({
         message: err.message || "Some error ocurred while retrieving customers",
